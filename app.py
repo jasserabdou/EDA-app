@@ -5,7 +5,7 @@ import base64
 
 
 def main():
-    st.title('EDA App 🚀')
+    st.title('EDA App 📊')
     uploaded_file = st.file_uploader(
         "Upload your dataset ...", type=[
             ".csv", ".xls", ".xlsx)"])
