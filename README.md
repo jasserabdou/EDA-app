@@ -1,4 +1,4 @@
-# EDA App 🚀
+# EDA App 📊
 
 ## Overview
 
