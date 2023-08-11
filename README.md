@@ -60,11 +60,4 @@ The app supports the following file types for dataset uploads:
 
 - For JSON datasets with complex nested structures, additional handling might be required. Consider using `pd.read_json()` with the appropriate options to read the data correctly.
 
-## Author
-
-This EDA App was created by Jasser as a simple tool for performing exploratory data analysis.
-
-Feel free to enhance and customize the app as per your specific requirements. Happy data exploration! 📊
-
----
 
