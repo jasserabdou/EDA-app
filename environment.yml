@@ -87,8 +87,6 @@ dependencies:
   - m2w64-libwinpthread-git=5.0.0.4634.697f757=2
   - markdown-it-py=3.0.0=pyhd8ed1ab_0
   - markupsafe=2.1.1=py310h2bbff1b_0
-  - matplotlib-base=3.4.3=py310h79a7439_2
-  - matplotlib-inline=0.1.6=pyhd8ed1ab_0
   - mdurl=0.1.0=pyhd8ed1ab_0
   - mkl=2021.4.0=h0e2418a_729
   - mkl-service=2.4.0=py310hcf6e17e_0
