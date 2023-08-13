@@ -8,32 +8,30 @@ This is a simple Exploratory Data Analysis (EDA) web application built using Str
 
 To run the EDA App, follow these steps:
 
-1. Install [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) on your system if not already installed.
-
-2. Clone or download the project files from the GitHub repository:
+1. Clone or download the project files from the GitHub repository:
 
    ```bash
    git clone https://github.com/jasserabdou/EDA-app.git
    ```
 
-3. Open a terminal or command prompt and navigate to the project directory:
+2. Open a terminal or command prompt and navigate to the project directory:
 
    ```bash
    cd EDA-app
    ```
-4. Install the required packages from the `requirements.txt` file:
+3. Install the required packages from the `requirements.txt` file:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-5. Run the app using the following command:
+4. Run the app using the following command:
 
    ```bash
    streamlit run app.py
    ```
 
-6. The app will start running, and you will see a message with a local URL (e.g., `http://localhost:8501`). Open this URL in your web browser to access the app.
+5. The app will start running, and you will see a message with a local URL (e.g., `http://localhost:8501`). Open this URL in your web browser to access the app.
 
 ## How to Use
 
