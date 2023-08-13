@@ -1,8 +1,11 @@
-# EDA App 📊
+Sure, here's the improved README file with the "pip install requirements.txt" section:
+
+```markdown
+# EDA App for Datasets📊
 
 ## Overview
 
-This is a simple Exploratory Data Analysis (EDA) web application built using Streamlit. The app allows users to upload datasets in CSV, Excel (.xls, .xlsx), or JSON format and generates a pandas profiling report using `pandas-profiling` library. The EDA report provides valuable insights into the dataset, including data types, missing values, statistics, and visualizations.
+This is a simple Exploratory Data Analysis (EDA) web application built using Streamlit. The app allows users to upload datasets in CSV, Excel (.xls, .xlsx), or JSON format and generates a pandas profiling report using the `pandas-profiling` library. The EDA report provides valuable insights into the dataset, including data types, missing values, statistics, and visualizations.
 
 ## Setup
 
@@ -21,12 +24,10 @@ To run the EDA App, follow these steps:
    ```bash
    cd EDA-app
    ```
-
-4. Create and activate a Conda environment using the provided `environment.yml` file:
+4. Install the required packages from the `requirements.txt` file:
 
    ```bash
-   conda env create -f environment.yml
-   conda activate myenv  # Replace 'myenv' with your environment name
+   pip install -r requirements.txt
    ```
 
 5. Run the app using the following command:
@@ -59,6 +60,8 @@ The app supports the following file types for dataset uploads:
 - Excel (.xls, .xlsx)
 - JSON (Unsupported in this version of the app)
 
+The app is deployed to this link: [EDA App Deployment](https://eda-app-felgmbsj2nfp49vx4t2y57.streamlit.app/)
+
 ## Note
 
 - If you encounter any problems or errors, please ensure that the uploaded dataset is in the correct format and that the required libraries are installed.
@@ -66,6 +69,6 @@ The app supports the following file types for dataset uploads:
 - This version of the app does not support JSON files. If you have a JSON dataset, consider converting it to CSV or Excel format before using the app.
 
 - For JSON datasets with complex nested structures, additional handling might be required. Consider using `pd.read_json()` with the appropriate options to read the data correctly.
+```
 
-
-
+Feel free to use this improved README file for your project!
