@@ -8,27 +8,34 @@ This is a simple Exploratory Data Analysis (EDA) web application built using Str
 
 To run the EDA App, follow these steps:
 
-1. Install the required libraries by running the following command:
-
-```bash
-pip install pandas streamlit pandas-profiling
-```
+1. Install [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) on your system if not already installed.
 
 2. Clone or download the project files from the GitHub repository:
 
-```bash
-git clone https://github.com/jasserabdou/EDA-app.git
-```
+   ```bash
+   git clone https://github.com/jasserabdou/EDA-app.git
+   ```
 
-3. Open a terminal or command prompt and navigate to the project directory.
+3. Open a terminal or command prompt and navigate to the project directory:
 
-4. Run the app using the following command:
+   ```bash
+   cd EDA-app
+   ```
 
-```bash
-streamlit run app.py
-```
+4. Create and activate a Conda environment using the provided `environment.yml` file:
 
-5. The app will start running, and you will see a message with a local URL (e.g., `http://localhost:8501`). Open this URL in your web browser to access the app.
+   ```bash
+   conda env create -f environment.yml
+   conda activate myenv  # Replace 'myenv' with your environment name
+   ```
+
+5. Run the app using the following command:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+6. The app will start running, and you will see a message with a local URL (e.g., `http://localhost:8501`). Open this URL in your web browser to access the app.
 
 ## How to Use
 
@@ -59,5 +66,6 @@ The app supports the following file types for dataset uploads:
 - This version of the app does not support JSON files. If you have a JSON dataset, consider converting it to CSV or Excel format before using the app.
 
 - For JSON datasets with complex nested structures, additional handling might be required. Consider using `pd.read_json()` with the appropriate options to read the data correctly.
+
 
 
