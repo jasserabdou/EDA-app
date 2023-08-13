@@ -1,6 +1,3 @@
-Sure, here's the improved README file with the "pip install requirements.txt" section:
-
-```markdown
 # EDA App for Datasets📊
 
 ## Overview
@@ -69,6 +66,6 @@ The app is deployed to this link: [EDA App Deployment](https://eda-app-felgmbsj2
 - This version of the app does not support JSON files. If you have a JSON dataset, consider converting it to CSV or Excel format before using the app.
 
 - For JSON datasets with complex nested structures, additional handling might be required. Consider using `pd.read_json()` with the appropriate options to read the data correctly.
-```
 
-Feel free to use this improved README file for your project!
+
+
